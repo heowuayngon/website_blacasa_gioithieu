@@ -76,6 +76,16 @@ $(document).ready(function () {
         paginationSpeed: 400,
          navigationText: ['<i class="fa fa-long-arrow-left"></i>', '<i class="fa fa-long-arrow-right"></i>']
     });
+    $('.owl-slider-style5').owlCarousel({
+        navigation: true, // Show next and prev buttons
+        slideSpeed: 300,
+        items: 5,
+        itemsDesktop: [1200, 5],
+        itemsTablet: [991, 3],
+        itemsMobile: [767, 1],
+        paginationSpeed: 400,
+         navigationText: ['<i class="fa fa-long-arrow-left"></i>', '<i class="fa fa-long-arrow-right"></i>']
+    });
 
     $('.testimonial-style3').owlCarousel({
         navigation: false,
@@ -84,11 +94,25 @@ $(document).ready(function () {
         itemsTablet: [800, 2],
         itemsMobile: [700, 1]
     });
+    $('.testimonial-style5').owlCarousel({
+        navigation: false,
+        items: 5,
+        itemsDesktop: [1200, 5],
+        itemsTablet: [800, 3],
+        itemsMobile: [700, 1]
+    });
 
     $('.gallery-style4').owlCarousel({
         navigation: false,
         items: 4,
         itemsDesktop: [1200, 4],
+        itemsTablet: [991, 3],
+        itemsMobile: [767, 1]
+    });
+    $('.gallery-style5').owlCarousel({
+        navigation: false,
+        items: 5,
+        itemsDesktop: [1200, 5],
         itemsTablet: [991, 3],
         itemsMobile: [767, 1]
     });
